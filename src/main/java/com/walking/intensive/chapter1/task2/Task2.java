@@ -31,7 +31,7 @@ public class Task2 {
             return String.format("%d кв - %d подъезд, %d этаж, %s", flatNumber, entrance, floor, flatLocation);
 
         } else {
-            return "Такой квартиры нет";
+            return "Такой квартиры не существует";
         }
     }
 }
